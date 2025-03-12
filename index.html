@@ -4,141 +4,310 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home page</title>
+    <title>Ecomarce</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
-<body class="max-w-[1440px] mx-auto">
-    <section>
-        <nav class="w-[1440px] h-[100px] ml-8px flex items-center justify-between">
-            <div class=" w-[185px] h-[41px] mt-54px ml-54px">
-                <img src="/images/Frame 168.png" alt="eroor">
-            </div>
-            <div class="w-[430px] h[24px] mt-38px pl-533px">
-                <ul class="flex items-center justify-between ">
-                    <a href="">home</a>
-                    <a href="">shop</a>
-                    <a href="">about</a>
-                    <a href="contact.html">contact</a>
-                </ul>
-            </div>
-        </nav>
-    </section>
-    <div class="mb-[100px]">
-        <img src="/images/Group 78.png" alt="eroor">
-    </div>
-    <div class="w-[820px] h-[794px] pl-[80px] broder broder-1px">
-        <div class="w-[817px] h-[500px] pt-542px pl-42px ">
-            <img src="/images/Rectangle 68.jpg" alt="">
-        </div>
-        <div class="flex items-center gap-4">
-            <div class="flex items-center gap-2">
-                <i class="fa-solid fa-user-tie"></i>
-                <p>admin</p>
-            </div>
-            <div class="flex items-center gap-2">
-                <i class="fa-solid fa-calendar"></i>
-                <p>14 Oct 2022</p>
-            </div>
-            <div class="flex items-center gap-2">
-                <i class="fa-solid fa-tag"></i>
-                <p>wood</p>
-            </div>
-
-        </div>
-        <div class="space-y-7">
-
-            <div class="space-y-7">
-                <h1 class="font-poppins text-2xl size-30px">Going all-in with millennial design</h1>
-                <p class="font-poppins size-15px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer
-                    malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at
-                    ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis
-                    at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim
-                    cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum</p>
+<body>
+    <div class="max-w-[1400px] mx-auto">
+        <nav class="flex justify-between items-center py-[29px] px-[54px] sticky top-0 bg-white">
+            <div class="">
+                <a href="#"><img src="/images/Frame 168.png" alt=""></a>
             </div>
             <div>
-                <a href="#" class="hover:underline underline-offset-8">read more</a>
+                <ul class="flex gap-[43px] text-xl ">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="checkout.html">checkout</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contect.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class=" flex gap-[30px] text-xl">
+                <a href="#"> <i class="fa-solid fa-user"></i></a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#"><i class="fa-solid fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </nav>
+
+        <section class="contect_home">
+            <div class="h-[316px]" style="background-image:url(pic/Rectangle\ 1.jpg);">
+
+                <div class="h-full flex items-center justify-center">
+                    <div class="space-y-3 ">
+                        <div class="flex justify-center">
+                            <img class="w-[77px] h-[77px] " src="/images/BLOG.jpg" alt="">
+                        </div>
+                        <h1 class="font-medium text-[48px]">Blog</h1>
+                        <h2 class="font-light"> <span class="font-black">Home </span> > Blog</h2>
+
+                    </div>
+                </div>
             </div>
 
-        </div>
+        </section>
+
+
+        <section class="flex justify-between">
+            <div class="">
+                <div class=" px-10 py-14">
+                    <div class="w-[820px] space-y-4">
+                        <div class="w-[820px]">
+                            <img src="/images/Rectangle 68.jpg" alt="">
+                        </div>
+
+                        <div class="flex items-center gap-4 ">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-user-tie"></i>
+                                <p>Admin</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-calendar"></i>
+                                <p>14 Oct 2022</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-tag"></i>
+                                <p>Wood</p>
+                            </div>
+
+                        </div>
+                        <div class="space-y-10">
+                            <div class="space-y-4">
+                                <h2 class="text-[30px] font-semibold">Going all-in with millennial design</h2>
+                                <p class="text-justify text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada
+                                    nunc. In nulla
+                                    posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi
+                                    tempus
+                                    imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at
+                                    erat. Nibh
+                                    cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper
+                                    dignissim cras
+                                    tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</p>
+
+                            </div>
+                            <div>
+                                <a href="#" class="hover:underline underline-offset-8 font-bold text-xl">Read more</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class=" px-10 py-14">
+                    <div class="w-[820px] space-y-4">
+                        <div class="w-[820px]">
+                            <img src="/images/Rectangle 68 (1).png" alt="">
+                        </div>
+
+                        <div class="flex items-center gap-4 ">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-user-tie"></i>
+                                <p>Admin</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-calendar"></i>
+                                <p>14 Oct 2022</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-tag"></i>
+                                <p>Wood</p>
+                            </div>
+
+                        </div>
+                        <div class="space-y-10">
+                            <div class="space-y-4">
+                                <h2 class="text-[30px] font-semibold">Exploring new ways of decorating</h2>
+                                <p class="text-justify  text-gray-400">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada
+                                    nunc. In nulla
+                                    posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi
+                                    tempus
+                                    imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at
+                                    erat. Nibh
+                                    cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper
+                                    dignissim cras
+                                    tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</p>
+
+                            </div>
+                            <div>
+                                <a href="#" class="hover:underline underline-offset-8 font-bold text-xl">Read more</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class=" px-10 py-14">
+                    <div class="w-[820px] space-y-4">
+                        <div class="w-[820px]">
+                            <img src="pic/three.jpg" alt="">
+                        </div>
+
+                        <div class="flex items-center gap-4 ">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-user-tie"></i>
+                                <p>Admin</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-calendar"></i>
+                                <p>14 Oct 2022</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-tag"></i>
+                                <p>Wood</p>
+                            </div>
+
+                        </div>
+                        <div class="space-y-10">
+                            <div class="space-y-4">
+                                <h2 class="text-[30px] font-semibold">Handmade pieces that took time to make</h2>
+                                <p class="text-justify text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada
+                                    nunc. In nulla
+                                    posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi
+                                    tempus
+                                    imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at
+                                    erat. Nibh
+                                    cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper
+                                    dignissim cras
+                                    tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</p>
+
+                            </div>
+                            <div>
+                                <a href="#" class="hover:underline underline-offset-8 font-bold text-xl">Read more</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="px-10 py-14">
+                <div class="space-y-8 w-[393px] h-[537px]">
+                    <form>
+                        <div class="relative">
+
+                            <input class="shadow-lg w-[300px] px-2 py-2 rounded border-[1px]" type=""
+                                placeholder="text">
+                            <i class="fa-solid fa-magnifying-glass absolute left-[270px] top-4"></i>
+                        </div>
+                    </form>
+                    <div class="w-[251px] h-[353px] space-y-8 pl-[20px]">
+                        <div>
+                            <h2 class="font-bold text-[24px]">Categories</h2>
+                        </div>
+                        <div class="text-gray-400  space-y-8 ">
+                            <div class="flex justify-between ">
+                                <p>Crafts</p>
+                                <h2>1</h2>
+                            </div>
+                            <div class="flex justify-between">
+                                <p>Design</p>
+                                <h2>2</h2>
+                            </div>
+                            <div class="flex justify-between">
+                                <p>Handmade</p>
+                                <h2>3</h2>
+                            </div>
+                            <div class="flex justify-between">
+                                <p>Interior</p>
+                                <h2>4</h2>
+                            </div>
+                            <div class="flex justify-between">
+                                <p>Wood</p>
+                                <h2>5</h2>
+                                <h3>6</h3>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="w-[393px] h-[650px] pl-[20px]">
+                    <div class="space-y-6">
+                        <div class="w-[252px] h-[618px] space-y-6 ">
+                            <div class="">
+                                <h2 class="font-bold text-[24px]">Recent Posts</h2>
+                            </div>
+                            <div class="w-[211px] h-[80px] flex gap-4 ">
+                                <div>
+                                    <img class="w-[140px] h-[80px]" src="pic/Rectangle 69.png" alt="">
+                                </div>
+                                <div>
+                                    <h2>Going all-in with millennial design</h2>
+                                    <p class="text-gray-400">03 Aug 2022</p>
+                                </div>
+
+                            </div>
+                            <div class="w-[211px] h-[80px] flex gap-4 ">
+                                <div>
+                                    <img class="w-[140px] h-[80px]" src="pic/Rectangle 69 (1).png" alt="">
+                                </div>
+                                <div>
+                                    <h2>Going all-in with millennial design</h2>
+                                    <p class="text-gray-400">03 Aug 2022</p>
+                                </div>
+
+                            </div>
+                            <div class="w-[211px] h-[80px] flex gap-4 ">
+                                <div>
+                                    <img class="w-[140px] h-[80px]" src="pic/Rectangle 69 (2).png" alt="">
+                                </div>
+                                <div>
+                                    <h2>Going all-in with millennial github</h2>
+                                    <p class="text-gray-400">03 Aug 2022</p>
+                                </div>
+
+                            </div>
+                            <div class="w-[211px] h-[80px] flex gap-4 ">
+                                <div>
+                                    <img class="w-[140px] h-[80px]" src="pic/Rectangle 69 (3).png" alt="">
+                                </div>
+                                <div>
+                                    <h2>Going all-in with millennial design</h2>
+
+                                </div>
+
+                            </div>
+                            <div class="w-[211px] h-[80px] flex gap-4 ">
+                                <div>
+                                    <img class="w-[140px] h-[80px]" src="pic/Rectangle 69 (4).png" alt="">
+                                </div>
+                                <div>
+                                    <h2>Going all-in with millennial design</h2>
+                                    <p class="text-gray-400">03 Aug 2022</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
     </div>
-    <section>
-        <div class="w-[820px] h-[794px] pl-[80px] broder broder-1px">
-            <div class="w-[817px] h-[500px] pt-542px pl-42px ">
-                <img src="/images/Rectangle 68.png" alt="">
-            </div>
-            <div class="flex items-center gap-4">
-                <div class="flex items-center gap-2">
-                    <i class="fa-solid fa-user-tie"></i>
-                    <p>admin</p>
-                </div>
-                <div class="flex items-center gap-2">
-                    <i class="fa-solid fa-calendar"></i>
-                    <p>14 Oct 2022</p>
-                </div>
-                <div class="flex items-center gap-2">
-                    <i class="fa-solid fa-tag"></i>
-                    <p>Handmade</p>
-                </div>
 
-            </div>
-            <div class="space-y-7">
-
-                <div class="space-y-7">
-                    <h1 class="font-poppins text-2xl size-30px">Exploring new ways of decorating</h1>
-                    <p class="font-poppins size-15px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo
-                        integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus
-                        risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis
-                        molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit
-                        ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum
-                    </p>
-                </div>
-                <div>
-                    <a href="#" class="hover:underline underline-offset-8">read more</a>
-                </div>
-
-            </div>
-        </div>
-        <div class="w-[820px] h-[794px] pl-[80px] broder broder-1px">
-            <div class="w-[817px] h-[500px] pt-542px pl-42px ">
-                <img src="/images/Rectangle 68 (1).png" alt="">
-            </div>
-            <div class="flex items-center gap-4">
-                <div class="flex items-center gap-2">
-                    <i class="fa-solid fa-user-tie"></i>
-                    <p>admin</p>
-                </div>
-                <div class="flex items-center gap-2">
-                    <i class="fa-solid fa-calendar"></i>
-                    <p>14 Oct 2022</p>
-                </div>
-                <div class="flex items-center gap-2">
-                    <i class="fa-solid fa-tag"></i>
-                    <p>wood</p>
-                </div>
-
-            </div>
-            <div class="space-y-7">
-
-                <div class="space-y-7">
-                    <h1 class="font-poppins text-2xl size-30px">Handmade pieces that took time to make</h1>
-                    <p class="font-poppins size-15px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo
-                        integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus
-                        risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis
-                        molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit
-                        ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum
-                    </p>
-                </div>
-                <div>
-                    <a href="#" class="hover:underline underline-offset-8">read more</a>
-                </div>
-
-            </div>
-        </div>
-    </section>
 </body>
 
 </html>
